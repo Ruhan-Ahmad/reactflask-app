@@ -5,12 +5,14 @@
 /.pnp
 .pnp.js
 
+#ignor python
+/Server
+
 # testing
 /coverage
 
 # production
 /build
-
 # misc
 .DS_Store
 .env.local
