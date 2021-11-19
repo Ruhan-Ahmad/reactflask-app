@@ -6,7 +6,7 @@
 .pnp.js
 
 #ignor python
-/Server
+/src/Server
 
 # testing
 /coverage
