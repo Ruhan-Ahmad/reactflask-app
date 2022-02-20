@@ -7,7 +7,7 @@ export const Load = () => {
     const [dar, setdar]= useState()
   let res = async(e) =>{
     e.preventDefault()
-    let result = await fetch('http://127.0.0.1:5000/show', {
+    let result = await fetch('https://fifthsemres.herokuapp.com/show', {
       method: "POST"
     })
     let data = await result.json()
