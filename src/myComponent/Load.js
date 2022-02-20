@@ -1,22 +1,28 @@
-import {React, useState, useEffect} from 'react'
-import { Show } from './Show'
+import {React, useState,useEffect} from 'react'
+import {Show} from "./Show"
+
 
 export const Load = () => {
     const [value, setvalue] = useState([])
-  let res = async() =>{
-    let result = await fetch('https://flask-react-app1.herokuapp.com/api')
+    const [dar, setdar]= useState()
+  let res = async(e) =>{
+    e.preventDefault()
+    let result = await fetch('http://127.0.0.1:5000/show', {
+      method: "POST"
+    })
     let data = await result.json()
-    setvalue(data.name)
+    setvalue(data.data)
   }
-  useEffect(() => {
-      res()
-    }
-  ,[])
   return (
-    <div>
-      {value.map((data, i)=>(
-        <Show res={data} key={i} />
+    <div> 
+      <form onSubmit={res} action="#">
+      {value.map((dat ,i)=>(
+        dat.map((d,r)=>(
+          <Show data = {d}/>
+        ))
       ))}
+        <button type='submit'>SHOW DATA</button>
+      </form>
     </div>
   );
 }
