@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/reactflask-app/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/reactflask-app/static/js/main.d38fe454.chunk.js",
-    "main.js.map": "/reactflask-app/static/js/main.d38fe454.chunk.js.map",
+    "main.css": "/reactflask-app/static/css/main.29412e1e.chunk.css",
+    "main.js": "/reactflask-app/static/js/main.f4cf1b85.chunk.js",
+    "main.js.map": "/reactflask-app/static/js/main.f4cf1b85.chunk.js.map",
     "runtime-main.js": "/reactflask-app/static/js/runtime-main.36727a19.js",
     "runtime-main.js.map": "/reactflask-app/static/js/runtime-main.36727a19.js.map",
-    "static/js/2.0f687cbd.chunk.js": "/reactflask-app/static/js/2.0f687cbd.chunk.js",
-    "static/js/2.0f687cbd.chunk.js.map": "/reactflask-app/static/js/2.0f687cbd.chunk.js.map",
+    "static/js/2.9fa1db0c.chunk.js": "/reactflask-app/static/js/2.9fa1db0c.chunk.js",
+    "static/js/2.9fa1db0c.chunk.js.map": "/reactflask-app/static/js/2.9fa1db0c.chunk.js.map",
     "static/js/3.3adf0afb.chunk.js": "/reactflask-app/static/js/3.3adf0afb.chunk.js",
     "static/js/3.3adf0afb.chunk.js.map": "/reactflask-app/static/js/3.3adf0afb.chunk.js.map",
     "index.html": "/reactflask-app/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/reactflask-app/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.0f687cbd.chunk.js.LICENSE.txt": "/reactflask-app/static/js/2.0f687cbd.chunk.js.LICENSE.txt"
+    "static/css/main.29412e1e.chunk.css.map": "/reactflask-app/static/css/main.29412e1e.chunk.css.map",
+    "static/js/2.9fa1db0c.chunk.js.LICENSE.txt": "/reactflask-app/static/js/2.9fa1db0c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.36727a19.js",
-    "static/js/2.0f687cbd.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.d38fe454.chunk.js"
+    "static/js/2.9fa1db0c.chunk.js",
+    "static/css/main.29412e1e.chunk.css",
+    "static/js/main.f4cf1b85.chunk.js"
   ]
 }
